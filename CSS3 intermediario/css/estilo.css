@@ -1,0 +1,30 @@
+/* Seletor universal */
+*{
+    background-color: aqua;
+}
+/* Seletor de texto */
+h1{
+    text-align: center;
+}
+
+/* Seletor de classse */
+.verde {
+
+}
+/* eletor de texto que contenha a classe */
+p.verde {
+
+ 
+}
+/* Seletor de ID */
+#main {
+
+}
+/* Seletor de filho */
+li >a {
+
+}
+/* Seletor descedente, a diferença de seletor filho é que ele vai funcionar para qualquer descedente */
+li a{
+    
+}

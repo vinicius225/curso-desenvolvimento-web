@@ -1,0 +1,27 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 ;
+}
+fieldset
+{
+    padding: 10px;  
+    border: 1px solid salmon;
+    background-color: f8f8f8;
+    margin: 1em 0;
+    width: 325px;
+
+}
+legend {
+    font-weight: bold;
+}
+label{
+    display: block;;
+    cursor: pointer;
+}
+input[type="textarea"]{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+}

@@ -1,5 +1,6 @@
 body {
-    background-color: blue;
+    background-image: linear-gradient(to left, rgb(190, 228, 20), rgb(111, 219, 39));
+
     text-align: center;
 }
 .menu {
@@ -8,10 +9,13 @@ body {
     top: 5em;
     margin: 0 auto;
     height: 80%;
-    border: solid 2px red;
+
     border-radius: 5px;
     width: 80%;
 
+}
+img {
+    padding-top: 10px;
 }
 input{
 width: 100px;

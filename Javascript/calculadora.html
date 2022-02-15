@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+
+        }
+
+        .calculadora-area {
+            width: 300px;
+            border: solid red 1px;
+            height: 600px;
+            margin: 100px auto;
+        }
+
+        .resultado {
+            border: solid black 1px;
+            margin-top: 15px;
+            width: 245px;
+        }
+
+        .valores {
+            width: 80px;
+            height: 80px;
+            border: solid blue 2px;
+            margin-left: 150pxs;
+        }
+    </style>
+</head>
+
+<body>
+    <di class="calculadora-area">
+        <h3 style="text-align: center;">Calculadora</h3>
+        <div class="resultado">
+            <label id="resultado">0</label>
+        </div>
+        <input type="button" onclick="Calcular(1)" value="1" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(2)" value="2" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(3)" value="3" class="valores">
+        </div>
+        <br>
+        </div>
+        <input type="button" onclick="Calcular(4)" value="4" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(5)" value="5" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(6)" value="6" class="valores">
+        </div>
+        <br>
+        </div>
+        <input type="button" onclick="Calcular(7)" value="7" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(8)" value="8" class="valores">
+        </div>
+        </div>
+        <input type="button" onclick="Calcular(9)" value="9" class="valores">
+        </div>
+        <br>
+        </div>
+        <input type="button" value="+" class="valores">
+        </div>
+        </div>
+        <input type="button" value="0" class="valores">
+        </div>
+        </div>
+        <input type="button" value="-" class="valores">
+        </div>
+</body>
+<script>
+    function Calcular(valor){
+        var resultado = document.getElementById("resultado");
+        if(resultado.innerHTML == 0){
+        resultado.innerHTML = valor;
+
+        }else{
+
+        resultado.innerHTML = resultado.innerHTML + valor;
+        }
+    }
+</script>
+</html>
